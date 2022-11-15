@@ -1,17 +1,3 @@
-const colluseum = {
-    "floor": "sand",
-    "shape": "circle",
-    "fighters": [],
-    "firstPlayersTurn":true
-}
-colluseum.load = function(){
-this.fighters[0] = fighter.new("Trump", 10, 3, 6);
-this.fighters[1] = fighter.new("Biden", 3, 9, 1);
-
-}
-
-
-
 
 colluseum.go =function(){ 
 let fighter1 = this.fighters[0];

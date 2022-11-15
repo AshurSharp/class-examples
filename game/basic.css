@@ -10,8 +10,80 @@ body{
     max-width: 1024px;
     background-color: white;
     margin:0 auto;
-    padding:20px;
-    
+    padding:20px;    
+}
+
+#colluseum{
+    width: 512px;
+    max-width: 100%;
+    height: 64px;
+    background-image: url("images/sprites/Plains.gif");
+    position:relative;
+}
+
+.fighter{
+    bottom:8px;
+    width:36px;
+    height: 50px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 1;
+}
+
+#fighter1{
+    left: 30%;
+    background-image: url(images/sprites/Warrior.gif);
+    transform: scaleX(-1);
+}
+
+#fighter1.attack{
+    background-image: url(images/sprites/Warrior-AttackL.gif);
+}
+
+#fighter1.hit{
+    background-image: url(images/sprites/Warrior-Hit.gif);
+}
+
+#fighter1.dead{
+    background-image: url(images/sprites/Warrior-Dead.gif);
+    width: 52px;
+    height: 30px;
+}
+
+#fighter1.victory{
+    background-image: url(images/sprites/Warrior-Victory.gif);
+}
+
+#fighter1.wounded{
+    background-image: url(images/sprites/Warrior-Wounded.gif);
+}
+
+#fighter2{
+    right:30%;
+    background-image: url(images/sprites/Monk.gif);
+}
+
+#fighter2.attack{
+    background-image: url(images/sprites/Monk-AttackL.gif);
+}
+
+#fighter2.hit{
+    background-image: url(images/sprites/Monk-Hit.gif);
+}
+
+#fighter2.dead{
+    background-image: url(images/sprites/Monk-Dead.gif);
+    width: 52px;
+    height: 30px;
+}
+
+#fighter2.victory{
+    background-image: url(images/sprites/Monk-Victory.gif);
+}
+
+#fighter2.wounded{
+    background-image: url(images/sprites/Monk-Wounded.gif);
 }
 
 #colluseum
